@@ -56,8 +56,8 @@ if st.checkbox("แสดง Pairplot (ใช้เวลาประมวล�
     fig2 = sns.pairplot(dt, hue='variety')
     st.pyplot(fig2)
 
-    html_8 = """
-<div style="background-color:#6BD5DA;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
+html_8 = """
+<div style="background-color:#6BD5DA;padding:15px;border-radius:15px 15px 15px 15px;border-style:solid;border-color:black">
 <center><h5>ทำนายข้อมูล</h5></center>
 </div>
 """
